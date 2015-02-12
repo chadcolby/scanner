@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DDBF71A1A8CF503009C1F04 /* GSTCardReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDBF7191A8CF503009C1F04 /* GSTCardReader.m */; };
+		8DDBF71D1A8CF52B009C1F04 /* GSTCardOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDBF71C1A8CF52B009C1F04 /* GSTCardOutline.m */; };
+		8DDBF7221A8CF8E8009C1F04 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDBF7211A8CF8E8009C1F04 /* OpenGLES.framework */; };
+		8DFA56821A3CBC7C0039CCAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA56811A3CBC7C0039CCAE /* main.m */; };
+		8DFA56851A3CBC7C0039CCAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA56841A3CBC7C0039CCAE /* AppDelegate.m */; };
+		8DFA568D1A3CBC7C0039CCAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFA568C1A3CBC7C0039CCAE /* Images.xcassets */; };
+		8DFA56901A3CBC7C0039CCAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFA568E1A3CBC7C0039CCAE /* LaunchScreen.xib */; };
+		8DFA569C1A3CBC7D0039CCAE /* CardReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA569B1A3CBC7D0039CCAE /* CardReaderTests.m */; };
+		8DFA56A81A3CBCE60039CCAE /* bmwScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA56A61A3CBCE60039CCAE /* bmwScanViewController.m */; };
+		8DFA56A91A3CBCE60039CCAE /* bmwScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFA56A71A3CBCE60039CCAE /* bmwScanViewController.xib */; };
+		8DFA56AD1A3CBD3C0039CCAE /* bmwScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA56AC1A3CBD3C0039CCAE /* bmwScanManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DFA56961A3CBC7D0039CCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DFA56741A3CBC7C0039CCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFA567B1A3CBC7C0039CCAE;
+			remoteInfo = CardReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DDBF7181A8CF503009C1F04 /* GSTCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTCardReader.h; sourceTree = "<group>"; };
+		8DDBF7191A8CF503009C1F04 /* GSTCardReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTCardReader.m; sourceTree = "<group>"; };
+		8DDBF71B1A8CF52B009C1F04 /* GSTCardOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTCardOutline.h; sourceTree = "<group>"; };
+		8DDBF71C1A8CF52B009C1F04 /* GSTCardOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTCardOutline.m; sourceTree = "<group>"; };
+		8DDBF7211A8CF8E8009C1F04 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8DFA567C1A3CBC7C0039CCAE /* CardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFA56801A3CBC7C0039CCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DFA56811A3CBC7C0039CCAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DFA56831A3CBC7C0039CCAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DFA56841A3CBC7C0039CCAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DFA568C1A3CBC7C0039CCAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DFA568F1A3CBC7C0039CCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DFA56951A3CBC7D0039CCAE /* CardReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFA569A1A3CBC7D0039CCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DFA569B1A3CBC7D0039CCAE /* CardReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardReaderTests.m; sourceTree = "<group>"; };
+		8DFA56A51A3CBCE60039CCAE /* bmwScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmwScanViewController.h; sourceTree = "<group>"; };
+		8DFA56A61A3CBCE60039CCAE /* bmwScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bmwScanViewController.m; sourceTree = "<group>"; };
+		8DFA56A71A3CBCE60039CCAE /* bmwScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bmwScanViewController.xib; sourceTree = "<group>"; };
+		8DFA56AB1A3CBD3C0039CCAE /* bmwScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmwScanManager.h; sourceTree = "<group>"; };
+		8DFA56AC1A3CBD3C0039CCAE /* bmwScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bmwScanManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DFA56791A3CBC7C0039CCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDBF7221A8CF8E8009C1F04 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFA56921A3CBC7D0039CCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDBF7201A8CF86C009C1F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDBF7211A8CF8E8009C1F04 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DFA56731A3CBC7C0039CCAE = {
+			isa = PBXGroup;
+			children = (
+				8DDBF7201A8CF86C009C1F04 /* Frameworks */,
+				8DFA567E1A3CBC7C0039CCAE /* CardReader */,
+				8DFA56981A3CBC7D0039CCAE /* CardReaderTests */,
+				8DFA567D1A3CBC7C0039CCAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DFA567D1A3CBC7C0039CCAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA567C1A3CBC7C0039CCAE /* CardReader.app */,
+				8DFA56951A3CBC7D0039CCAE /* CardReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFA567E1A3CBC7C0039CCAE /* CardReader */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA56831A3CBC7C0039CCAE /* AppDelegate.h */,
+				8DFA56841A3CBC7C0039CCAE /* AppDelegate.m */,
+				8DFA56AA1A3CBCEE0039CCAE /* ViewControllers */,
+				8DFA56AB1A3CBD3C0039CCAE /* bmwScanManager.h */,
+				8DFA56AC1A3CBD3C0039CCAE /* bmwScanManager.m */,
+				8DDBF7181A8CF503009C1F04 /* GSTCardReader.h */,
+				8DDBF7191A8CF503009C1F04 /* GSTCardReader.m */,
+				8DDBF71B1A8CF52B009C1F04 /* GSTCardOutline.h */,
+				8DDBF71C1A8CF52B009C1F04 /* GSTCardOutline.m */,
+				8DFA568C1A3CBC7C0039CCAE /* Images.xcassets */,
+				8DFA568E1A3CBC7C0039CCAE /* LaunchScreen.xib */,
+				8DFA567F1A3CBC7C0039CCAE /* Supporting Files */,
+			);
+			path = CardReader;
+			sourceTree = "<group>";
+		};
+		8DFA567F1A3CBC7C0039CCAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA56801A3CBC7C0039CCAE /* Info.plist */,
+				8DFA56811A3CBC7C0039CCAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DFA56981A3CBC7D0039CCAE /* CardReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA569B1A3CBC7D0039CCAE /* CardReaderTests.m */,
+				8DFA56991A3CBC7D0039CCAE /* Supporting Files */,
+			);
+			path = CardReaderTests;
+			sourceTree = "<group>";
+		};
+		8DFA56991A3CBC7D0039CCAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA569A1A3CBC7D0039CCAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DFA56AA1A3CBCEE0039CCAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DFA56A51A3CBCE60039CCAE /* bmwScanViewController.h */,
+				8DFA56A61A3CBCE60039CCAE /* bmwScanViewController.m */,
+				8DFA56A71A3CBCE60039CCAE /* bmwScanViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DFA567B1A3CBC7C0039CCAE /* CardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFA569F1A3CBC7D0039CCAE /* Build configuration list for PBXNativeTarget "CardReader" */;
+			buildPhases = (
+				8DFA56781A3CBC7C0039CCAE /* Sources */,
+				8DFA56791A3CBC7C0039CCAE /* Frameworks */,
+				8DFA567A1A3CBC7C0039CCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardReader;
+			productName = CardReader;
+			productReference = 8DFA567C1A3CBC7C0039CCAE /* CardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DFA56941A3CBC7D0039CCAE /* CardReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFA56A21A3CBC7D0039CCAE /* Build configuration list for PBXNativeTarget "CardReaderTests" */;
+			buildPhases = (
+				8DFA56911A3CBC7D0039CCAE /* Sources */,
+				8DFA56921A3CBC7D0039CCAE /* Frameworks */,
+				8DFA56931A3CBC7D0039CCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DFA56971A3CBC7D0039CCAE /* PBXTargetDependency */,
+			);
+			name = CardReaderTests;
+			productName = CardReaderTests;
+			productReference = 8DFA56951A3CBC7D0039CCAE /* CardReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DFA56741A3CBC7C0039CCAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Byte Meets World";
+				TargetAttributes = {
+					8DFA567B1A3CBC7C0039CCAE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8DFA56941A3CBC7D0039CCAE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8DFA567B1A3CBC7C0039CCAE;
+					};
+				};
+			};
+			buildConfigurationList = 8DFA56771A3CBC7C0039CCAE /* Build configuration list for PBXProject "CardReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DFA56731A3CBC7C0039CCAE;
+			productRefGroup = 8DFA567D1A3CBC7C0039CCAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DFA567B1A3CBC7C0039CCAE /* CardReader */,
+				8DFA56941A3CBC7D0039CCAE /* CardReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DFA567A1A3CBC7C0039CCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFA56901A3CBC7C0039CCAE /* LaunchScreen.xib in Resources */,
+				8DFA56A91A3CBCE60039CCAE /* bmwScanViewController.xib in Resources */,
+				8DFA568D1A3CBC7C0039CCAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFA56931A3CBC7D0039CCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DFA56781A3CBC7C0039CCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFA56851A3CBC7C0039CCAE /* AppDelegate.m in Sources */,
+				8DFA56AD1A3CBD3C0039CCAE /* bmwScanManager.m in Sources */,
+				8DDBF71A1A8CF503009C1F04 /* GSTCardReader.m in Sources */,
+				8DDBF71D1A8CF52B009C1F04 /* GSTCardOutline.m in Sources */,
+				8DFA56A81A3CBCE60039CCAE /* bmwScanViewController.m in Sources */,
+				8DFA56821A3CBC7C0039CCAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFA56911A3CBC7D0039CCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFA569C1A3CBC7D0039CCAE /* CardReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DFA56971A3CBC7D0039CCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DFA567B1A3CBC7C0039CCAE /* CardReader */;
+			targetProxy = 8DFA56961A3CBC7D0039CCAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DFA568E1A3CBC7C0039CCAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFA568F1A3CBC7C0039CCAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DFA569D1A3CBC7D0039CCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DFA569E1A3CBC7D0039CCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFA56A01A3CBC7D0039CCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DFA56A11A3CBC7D0039CCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DFA56A31A3CBC7D0039CCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardReader.app/CardReader";
+			};
+			name = Debug;
+		};
+		8DFA56A41A3CBC7D0039CCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardReader.app/CardReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DFA56771A3CBC7C0039CCAE /* Build configuration list for PBXProject "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFA569D1A3CBC7D0039CCAE /* Debug */,
+				8DFA569E1A3CBC7D0039CCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFA569F1A3CBC7D0039CCAE /* Build configuration list for PBXNativeTarget "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFA56A01A3CBC7D0039CCAE /* Debug */,
+				8DFA56A11A3CBC7D0039CCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFA56A21A3CBC7D0039CCAE /* Build configuration list for PBXNativeTarget "CardReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFA56A31A3CBC7D0039CCAE /* Debug */,
+				8DFA56A41A3CBC7D0039CCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DFA56741A3CBC7C0039CCAE /* Project object */;
+}
